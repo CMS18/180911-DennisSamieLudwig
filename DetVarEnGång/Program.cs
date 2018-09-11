@@ -26,8 +26,8 @@ namespace DetVarEnGång
             Console.WriteLine("Vad är ditt favoritnummer?");
             string nummer = Console.ReadLine();
 
-            Console.WriteLine("Det var en"+ färg+ " från "+ land + "Som älskade"+ rätt 
-                "& han älskade"+ sport); 
+            Console.WriteLine("Det var en "+ färg+ " hund från "+ land + " som älskade "+ rätt + 
+                " & han älskade att kolla på "+ sport + ". Han hade " + nummer + " jobbiga ungar."); 
             
 
 

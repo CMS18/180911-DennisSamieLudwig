@@ -25,7 +25,11 @@ namespace DetVarEnGång
             // Börja berättelse här.
             Console.WriteLine("Vad är ditt favoritnummer?");
             string nummer = Console.ReadLine();
+
+            Console.WriteLine("Det var en"+ färg+ " från "+ land + "Som älskade"+ rätt 
+                "& han älskade"+ sport); 
             
+
 
             Console.ReadKey();
         }

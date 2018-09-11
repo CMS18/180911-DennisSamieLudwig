@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DetVarEnGång
 {
@@ -20,15 +16,15 @@ namespace DetVarEnGång
             string rätt = Console.ReadLine();
             Console.WriteLine("Vad är din favoritsport?");
             string sport = Console.ReadLine();
-
-
-            // Börja berättelse här.
             Console.WriteLine("Vad är ditt favoritnummer?");
             string nummer = Console.ReadLine();
 
-            Console.WriteLine("Det var en "+ färg+ " hund från "+ land + " som älskade "+ rätt + 
-                " & han älskade att kolla på "+ sport + ". Han hade " + nummer + " jobbiga ungar."); 
-            
+            // Börja berättelse här.
+
+
+            Console.WriteLine("Det var en " + färg + " hund från " + land + " som älskade " + rätt +
+                " & han älskade att kolla på " + sport + ". Han hade " + nummer + " jobbiga ungar.");
+
 
 
             Console.ReadKey();

@@ -23,7 +23,8 @@ namespace DetVarEnGång
 
 
             // Börja berättelse här.
-
+            Console.WriteLine("Vad är ditt favoritnummer?");
+            string nummer = Console.ReadLine();
             
 
             Console.ReadKey();
